@@ -13,13 +13,13 @@ jobs:
 
 
     steps:
-      - name: 'before'
-        run: ls
-
       - uses: actions/checkout@v3 
 
-      - name: 'After'
-        run: ls 
+      - name: "loogin to docker"
+        run: docker login --username mohamedamr1510 --password dckr_pat_E7kOTKQDjEUZF8hpQ3N7qIWpx6c
+
+
+
         
 
 
